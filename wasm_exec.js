@@ -3,7 +3,6 @@
 // license that can be found in the LICENSE file.
 
 'use strict'
-
 ;(() => {
   const enosys = () => {
     const err = new Error('not implemented')
@@ -26,7 +25,6 @@
         outputBuf += decoder.decode(buf)
         const nl = outputBuf.lastIndexOf('\n')
         if (nl != -1) {
-          console.log(outputBuf.substring(0, nl))
           outputBuf = outputBuf.substring(nl + 1)
         }
         return buf.length
@@ -171,7 +169,6 @@
 
   globalThis.Go = class {
     constructor() {
-      console.log('globalThis')
       this.argv = ['js']
       this.env = {}
       this.exit = (code) => {
