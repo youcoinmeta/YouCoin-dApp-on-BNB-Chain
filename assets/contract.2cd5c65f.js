@@ -1,1 +1,0 @@
-import{W as a}from"./index.0c24c878.js";import{N as e}from"./index.ffea2937.js";const{eth:{abi:s},utils:t}=new a,c=a=>{window.open("https://bscscan.com/address/"+a,"_blank")},r=a=>{try{return s.decodeParameter("string",a)}catch(e){return a}},n=async a=>await e.call("hasRole",["0xa49807205ce4d355092ef5a8a18f56e8913cf4a201fbe287825b095693c21775",a]);export{r as g,n as h,c as l};
