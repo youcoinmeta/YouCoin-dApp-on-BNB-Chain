@@ -1,1 +1,0 @@
-import{W as e}from"./index.b23b29b2.js";function s(){return{addAsset:async function(e,s,t){await window.ethereum.request({method:"wallet_watchAsset",params:{type:"ERC20",options:{address:e,symbol:s,decimals:t}}})}}}new e;export{s as u};
