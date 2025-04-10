@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as o,S as e}from"./index.4f3dd4e0.js";const a={class:"text"};const d=s({},[["render",function(s,d){return t(),o("div",a,[e(s.$slots,"default",{},void 0,!0),e(s.$slots,"text",{},void 0,!0)])}],["__scopeId","data-v-1a66756e"]]);export{d as V};
