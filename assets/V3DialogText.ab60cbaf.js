@@ -1,1 +1,0 @@
-import{_ as s,o as t,c as o,L as a}from"./index.afc1812c.js";const e={class:"text"};const c=s({},[["render",function(s,c){return t(),o("div",e,[a(s.$slots,"default",{},void 0,!0),a(s.$slots,"text",{},void 0,!0)])}],["__scopeId","data-v-1a66756e"]]);export{c as V};
